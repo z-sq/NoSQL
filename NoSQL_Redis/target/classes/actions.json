@@ -1,0 +1,74 @@
+{
+  "actions": [
+    {
+      "name": "AUDIENCE ++",
+      "describe": "An new audience entered the Live stream.",
+      "retrieve": [
+        {
+          "counterName": "AudienceNum_show"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "AudienceNum ++"
+        }
+      ]
+    },
+    {
+      "name": "AUDIENCE --",
+      "describe": "An audience left the Live stream.",
+      "retrieve": [
+        {
+          "counterName": "AudienceNum_show"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "AudienceNum --"
+        }
+      ]
+    },
+    {
+      "name": "FREQUENT_AUDIENCE ++",
+      "describe": "The number of audience rises during this time period.",
+      "retrieve": [
+        {
+          "counterName": "AudienceFreq_show"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "AudienceFreq ++"
+        }
+      ]
+    },
+    {
+      "name": "FREQUENT_AUDIENCE --",
+      "describe": "The number of audience drops during this time period.",
+      "retrieve": [
+        {
+          "counterName": "AudienceFreq_show"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "AudienceFreq --"
+        }
+      ]
+    },
+    {
+      "name": "AUDIENCE_REGIST",
+      "describe": "An audience registed entering the Live stream, save his/her user name.",
+      "retrieve": [
+        {
+          "counterName": "AudienceRegist_show"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "AudienceRegist ++"
+        }
+      ]
+    }
+  ]
+}

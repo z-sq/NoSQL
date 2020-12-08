@@ -1,0 +1,60 @@
+{
+  "counters": [
+    {
+      "counterName": "audience +",
+      "counterIndex": "1",
+      "type": "num",
+      "keyFields": "User",
+      "valueFields": "4"
+    },
+    {
+      "counterName": "audience show",
+      "counterIndex": "2",
+      "type": "num",
+      "keyFields": "User"
+    },
+    {
+      "counterName": "audience -",
+      "counterIndex": "3",
+      "type": "num",
+      "keyFields": "User",
+      "valueFields": "-1"
+    },
+    {
+      "counterName": "frequent +",
+      "counterIndex": "4",
+      "type": "freq",
+      "keyFields": "monitor",
+      "fields": "202011101200",
+      "valueFields": "100"
+    },
+    {
+      "counterName": "frequent show",
+      "counterIndex": "5",
+      "type": "freq",
+      "keyFields": "monitor",
+      "fields": "202012101200 202012101300"
+    },
+    {
+      "counterName": "frequent -",
+      "counterIndex": "6",
+      "type": "freq",
+      "keyFields": "monitor",
+      "fields": "202011101300",
+      "valueFields": "-1"
+    },
+    {
+      "counterName": "regist",
+      "counterIndex": "7",
+      "type": "str",
+      "keyFields": "guest",
+      "valueFields": "regist check"
+    },
+    {
+      "counterName": "check regist",
+      "counterIndex": "8",
+      "type": "str",
+      "keyFields": "guest"
+    }
+  ]
+}
