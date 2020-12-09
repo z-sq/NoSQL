@@ -11,7 +11,7 @@ public class Action {
     private List<CounterState> save;
 
     public List<CounterState> getRetrieve() {
-        return retrieve;
+            return retrieve;
     }
 
     public List<CounterState> getSave() {

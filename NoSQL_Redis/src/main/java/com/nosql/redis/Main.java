@@ -107,7 +107,7 @@ public class Main {
 
     public static void resolveCounters(List<Counter> counterList) {
         counterList.forEach(counter -> {
-            System.out.println(counter.getCounterName() + ">>> EXECUTING ... <<<");
+            System.out.println(counter.getCounterName() + " >>> EXECUTING ... <<<");
             String res = null;
             try {
                 res = typeFactory.getCounter(counter.getType(), counter).executeCount();

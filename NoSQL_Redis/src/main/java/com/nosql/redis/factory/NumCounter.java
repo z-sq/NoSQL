@@ -38,11 +38,11 @@ public class NumCounter implements DataTypeCounter {
                     jedis.incrBy(key, change);
                     if(expireTime != 0) {
                         jedis.expire(key, expireTime);
-                        info.set("Key: " + key + " - Changed: " + change + "to" + jedis.get(key) +
+                        info.set("Key: " + key + " - Changed: " + change + " to " + jedis.get(key) +
                                 " - Expire Time: " + expireTime + "sec.");
                     } else {
                         //ExpireTime is 0; which means there are no expire time.
-                        info.set("Key: " + key + " - Changed: " + change + "to" + jedis.get(key) +
+                        info.set("Key: " + key + " - Changed: " + change + " to " + jedis.get(key) +
                                 " - No expire time.");
                     }
                 } else {    // valueFields is empty

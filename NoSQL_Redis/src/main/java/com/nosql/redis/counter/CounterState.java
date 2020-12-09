@@ -13,7 +13,12 @@ public class CounterState {
 
     private String state;
 
-    public String getCondition() {
+
+    public String getCounterName() {
+        return counterName;
+    }
+
+    public String getState() {
         return state;
     }
 
@@ -23,10 +28,6 @@ public class CounterState {
 
     public void setCondition(String state) {
         this.state = state;
-    }
-
-    public String getCounterName() {
-        return counterName;
     }
 
     @Override

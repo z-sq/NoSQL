@@ -44,17 +44,18 @@
       "valueFields": "-1"
     },
     {
-      "counterName": "regist",
+      "counterName": "regist in",
       "counterIndex": "7",
       "type": "str",
       "keyFields": "guest",
-      "valueFields": "regist check"
+      "valueFields": "check in"
     },
     {
-      "counterName": "check regist",
+      "counterName": "show user name",
       "counterIndex": "8",
       "type": "str",
-      "keyFields": "guest"
+      "keyFields": "guest list",
+      "valueFields": "I have already checked in"
     }
   ]
 }
